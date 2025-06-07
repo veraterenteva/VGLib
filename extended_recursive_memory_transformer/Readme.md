@@ -1,4 +1,4 @@
-# Extended memory tranformer for vector image analysis
+# Vector TDAM 
 
 Primary contact: tik11994@mail.ru
 
@@ -15,10 +15,20 @@ This model is designed to analyze unlimitedly large vector images. Using it you 
 We present a new method for analyzing vector images that can process even large images such as drawings. The demonstrated examples show the ability of the model to search for similar images. 
 
 ## Usage
+Clone the repository 
+``git clone https://github.com/EgorBa/EvoVec-Evolutionary-Image-Vectorization``
 
-1. ``git clone https://github.com/EgorBa/EvoVec-Evolutionary-Image-Vectorization``
-2. ``pip install requirements.txt``
-3. [Download] (https://drive.google.com/file/d/1OTfNueVaXMzzgjd7mvheWYWUXHYUcMTM/view?usp=drive_link) the model weights and place it in the folder model
-4. Place the data in the data folder
-5. If you need to change the reading and writing paths of the results, you can do it in the file config.ini
-6. ``python main.py``
+### Dependencies 
+Install dependencies by running
+``pip install requirements.txt``
+
+### Weights 
+Download the model weights and place it in the folder model
+[Download] (https://drive.google.com/file/d/1OTfNueVaXMzzgjd7mvheWYWUXHYUcMTM/view?usp=drive_link)
+Place the data in the data folder
+
+If you need to change the reading and writing paths of the results, you can do it by changing paths in the file config.ini
+
+### Testing 
+Run the code 
+``python main.py``
