@@ -16,7 +16,7 @@ We present a new method for analyzing vector images that can process even large 
 
 ## Usage
 
-1. ``git clone https://github.com/EgorBa/EvoVec-Evolutionary-Image-Vectorization``
+1. ``git clone https://github.com/CTLab-ITMO/VGLib.git``
 2. ``pip install requirements.txt``
 3. [Download] (https://drive.google.com/file/d/1OTfNueVaXMzzgjd7mvheWYWUXHYUcMTM/view?usp=drive_link) the model weights and place it in the folder model
 4. Place the data in the data folder
